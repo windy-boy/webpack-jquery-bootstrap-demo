@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+      "ecmaVersion": 12,
+      "sourceType": "module",
+      "parser": "babel-eslint"
+  },
+  "plugins": [
+    "html"
+  ],
+  "rules": {
+    "no-undef": "off"// 允许使用未定义的变量
+  }
+}
